@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMDB Rating of Movies</title>
+    <link rel ="stylesheet" type="text/css" href="style.css">
+    <script src="https://kit.fontawesome.com/fd92b0bf29.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+
+
+    <div class="wrapper">
+        <!-- logo -->
+        <div class="logo">
+            <div class = "container">
+                <p>Movies<span>Rating</span></p>
+            </div>
+        </div>
+        <!-- search container -->
+        <div class="search-container">
+            <div class="search-element">
+                <h3>Search Movies Name :-</h3>
+                <input type="text" class ="form-control" 
+                placeholder="Search Movies Name.."id="movie-search-box" onkeyup="findMovies()" onclick="findMovies()">
+
+                 <div class="search-list" id ="search-list">
+                   <!-- // List movies here//-->
+                   
+                     <!-- <div class="search-list-item">
+                        <div class="search-item-thumbnail">
+                            <img src ="Image/avengers-endgame-poster.jpg">
+
+                        </div>
+                        <div class = "search-item-info">
+                            <h3>Avengers-End Game</h3>
+                            <p>2019</p>
+
+                        </div>
+
+                    </div>  -->
+
+                      </div> 
+                     
+
+                </div>
+            </div>
+        
+        <!-- End of search container -->
+
+        <!-- result container -->
+        <div class="container">
+            <div class = "result-container">
+                <div class="result-grid" id="result-grid">
+                    <!-- movies information -->
+                    <!-- <div class="movie-poster">
+                        <img src="Image/avengers-endgame-poster.jpg" alt ="end game poster">
+                    </div>
+                    <div class="movie-info">
+                        <h3 class="movie-title">Avengers-End Game</h3>
+                        <ul class="movie-misc-info">
+                            <li class="year"> Year : 2019</li>
+                            <li class="rated"> Rating: good</li>
+                            <li class="relased"> Released :  5 may 2019</li>
+                        </ul>
+                         <p class="genere"><b>Genere:</b> Action ,Adventure,Comedy</p>
+                         <p class="writer"><b>Writer::</b> Action ,Adventure,Comedy</p>
+                         <p class="actors"><b>Actors:</b> Action ,Adventure,Comedy</p>
+                         <p class="plot"><b>Plot:</b> Action ,Adventure,Comedy</p>
+                         <p class="language"><b>Language:</b> English , Hindi</p>
+                         <p class="awards"><b>Awards:</b> Action </p>
+
+                       
+                    </div> -->
+                </div>
+            </div>
+        </div>
+        <!-- end of result contaner -->
+    </div>
+
+
+
+
+<!-- adding j.s -->
+    <script  type = "text/javascript" src="index.js"></script>
+</body>
+</html>
